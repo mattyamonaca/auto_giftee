@@ -20,8 +20,8 @@ def set_driver(debug=True):
 
 def login(driver,url):
     driver.get(url)
-    email = "facebook addres"
-    password = "facebook password"
+    email = "facebook adress"
+    password = "facebook pass"
     mail_form = driver.find_element_by_id("email")
     pass_form = driver.find_element_by_id("pass")
 
@@ -36,7 +36,7 @@ def login(driver,url):
     
 def work(driver):
     url = "https://giftee.co/gifts/detail/1395"
-    password = "JCB password"
+    password = "credit pass"
     driver.get(url)
 
     time.sleep(3)
